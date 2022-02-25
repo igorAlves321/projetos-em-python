@@ -1,0 +1,19 @@
+Calculadora, um mine projetinho que ainda está em desenvolvimento:
+1. adicionadas 6 operações matemáticas.
+1.1. Adção.
+1.2. Subtração.
+1.3. Multiplicação.
+1.4. Divisão.
+1.5. Potenciação.
+1.6. Raíz quadrada (observação: ela precisa ser testada e revisada, pois acredito que os cálculos não estão saindo exatamente como deveriam.)
+2. Adicionados respectivos tratamentos de ecessões, tanto para números inteiros quanto para números flutuantes.
+3. tentando criar uma classe para janelas do programa.
+4. Dentro dessa classe adicionados respectivos atributos:
+4.1 Título da janela.
+4.2. Será adicionado atributo para verção do programa.
+4.3. Sendo feitas pesquisas para a bibliotéca wx.
+5. Refeito o sistema de operações matemáticas.
+6. Feito um menu para as operações matemáticas na qual o usuário pode escolher, esse menu pode sofrer alterações ao longo do projeto.
+7. Alterado os parâmetros das operações.
+8. Adicionada a opção de ver histórico.
+9. Adicionada a opção de limpar o histórico.
