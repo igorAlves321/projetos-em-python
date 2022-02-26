@@ -19,3 +19,4 @@ Calculadora, um mine projetinho que ainda está em desenvolvimento:
 8. Adicionada a opção de ver histórico.
 9. Adicionada a opção de limpar o histórico.
 9.1. Adicionada mensagem para quando não ouver nada no histórico.
+10. Adicionado sistema de confirmações.
