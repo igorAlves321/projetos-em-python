@@ -6,6 +6,7 @@ Calculadora, um mine projetinho que ainda está em desenvolvimento:
 1.4. Divisão.
 1.5. Potenciação.
 1.6. Raíz quadrada (observação: ela precisa ser testada e revisada, pois acredito que os cálculos não estão saindo exatamente como deveriam.)
+1.7. Corrigido bug com arredondamento de números.
 2. Adicionados respectivos tratamentos de ecessões, tanto para números inteiros quanto para números flutuantes.
 3. tentando criar uma classe para janelas do programa.
 4. Dentro dessa classe adicionados respectivos atributos:
@@ -17,3 +18,4 @@ Calculadora, um mine projetinho que ainda está em desenvolvimento:
 7. Alterado os parâmetros das operações.
 8. Adicionada a opção de ver histórico.
 9. Adicionada a opção de limpar o histórico.
+9.1. Adicionada mensagem para quando não ouver nada no histórico.

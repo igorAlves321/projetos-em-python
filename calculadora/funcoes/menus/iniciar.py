@@ -66,7 +66,7 @@ def iniciar():
             historico.append(result)
             break
         if operar == 6:
-            print(f"O resultado da raíz foi: {operacoes.raiz(round(n1, 1))}")
-            result = operacoes.raiz(round(n1, 1))
+            print(f"O resultado da raíz foi: {operacoes.raiz(n1)}")
+            result = operacoes.raiz(n1)
             historico.append(result)
             break

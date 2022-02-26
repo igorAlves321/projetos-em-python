@@ -5,3 +5,5 @@ def verHistorico():
     for c in mostrar:
         print(f"Resultados na memória: {mostrar}")
         break
+    else:
+        print("Nada para mostrar no histórico!")

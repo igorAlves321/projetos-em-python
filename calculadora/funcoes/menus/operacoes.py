@@ -8,10 +8,10 @@ def multiplicar(y, z):
     return y * z
 
 def dividir(y, z):
-    return y / z
+    return round(y / z, 0)
 
 def potencia(y, z):
     return y ** z
 
 def raiz(z):
-    return z ** 0.5
+    return round(z ** 0.5, 0)
