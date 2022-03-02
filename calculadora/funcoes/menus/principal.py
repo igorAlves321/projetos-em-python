@@ -1,6 +1,7 @@
 from  funcoes.menus import iniciar
 from funcoes.menus import  resultados
 from  funcoes.menus import limpar
+from funcoes.menus import confirmacoes
 
 def menu():
     print("Menu principal")
@@ -18,3 +19,10 @@ def menu():
             resultados.verHistorico()
         if opcoes == "l" and "L":
             limpar.limparMemoria()
+        if opcoes == "s" and "S":
+            c = confirmacoes.confirmacao("Deseja encerrar a calculadora? Dijite s para sim e N para não")
+            if c:
+                print("Calculadora desligada!")
+                break
+            else:
+                print("Retornando ao menu principal...")

@@ -1,0 +1,5 @@
+Autores:
+Jairo Conceição e Ígor Alves.
+Desenvolvida por mim Jairo Conceição em parceria com Ígor Alves, Essa calculadora tem como finalidade fazer as operações matemáticas, bem como, adção, subtração e demais operações existentes.
+Esse projeto tem como finalidade praticar conhecimentos e obter novos conhecimentos sobre a linguagem de programação python.
+Qualquer colaboração, bem como auxílio e sujestões para melhorias no mesmo são bem-vindas.
