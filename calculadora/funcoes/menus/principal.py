@@ -4,7 +4,7 @@ from  funcoes.menus import limpar
 from funcoes.menus import confirmacoes
 
 def menu():
-    print("Menu principal")
+    print("\t Menu principal \n")
     while True:
         opcoes = str(input(
             "Calculadora qual a opção que deseja: \+"

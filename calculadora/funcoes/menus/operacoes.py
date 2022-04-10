@@ -8,7 +8,12 @@ def multiplicar(y, z):
     return y * z
 
 def dividir(y, z):
-    return round(y / z, 0)
+    try:
+        division = y / z
+    except ZeroDivisionError:
+        print("Não é possível dividir por zero")
+    else:
+        return round(y / z, 0)
 
 def potencia(y, z):
     return y ** z

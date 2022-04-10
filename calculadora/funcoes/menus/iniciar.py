@@ -55,10 +55,14 @@ def iniciar():
             break
         if operar == 4:
             n2 = leiaInt("Qual o valor?")
-            print(f"O resultado da divisão foi: {operacoes.dividir(n1, n2)}")
             result = operacoes.dividir(n1, n2)
-            historico.append(result)
-            break
+            if result == None:
+                print("O resultado não será transferido para memória pois o resultado da divisão não é válido")
+                break
+            else:
+                print(f"O resultado da divisão foi: {operacoes.dividir(n1, n2)}")
+                historico.append(result)
+                break
         if operar == 5:
             n2 = leiaInt("Qual o valor?")
             print(f"O resultado da potência foi: {operacoes.potencia(n1, n2)}")

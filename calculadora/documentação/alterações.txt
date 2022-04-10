@@ -1,12 +1,7 @@
 Calculadora, um mine projetinho que ainda está em desenvolvimento:
 1. adicionadas 6 operações matemáticas.
-1.1. Adção.
-1.2. Subtração.
-1.3. Multiplicação.
-1.4. Divisão.
-1.5. Potenciação.
-1.6. Raíz quadrada (observação: ela precisa ser testada e revisada, pois acredito que os cálculos não estão saindo exatamente como deveriam.)
-1.7. Corrigido bug com arredondamento de números.
+1.1. Corrigido bug com arredondamento de números.
+1.2. Adicionado tratamento de eceção para divisão por 0 com sua respectiva mensagem.
 2. Adicionados respectivos tratamentos de ecessões, tanto para números inteiros quanto para números flutuantes.
 3. tentando criar uma classe para janelas do programa.
 4. Dentro dessa classe adicionados respectivos atributos:
@@ -17,6 +12,7 @@ Calculadora, um mine projetinho que ainda está em desenvolvimento:
 6. Feito um menu para as operações matemáticas na qual o usuário pode escolher, esse menu pode sofrer alterações ao longo do projeto.
 7. Alterado os parâmetros das operações.
 8. Adicionada a opção de ver histórico.
+8.1. Em desenvolvimento, estádisponível uma função para copiar ou não o histórico para a área de transferência.
 9. Adicionada a opção de limpar o histórico.
 9.1. Adicionada mensagem para quando não ouver nada no histórico.
-10. Adicionado sistema de confirmações.
+10. Adicionado o arquivo na pasta do projeto "requirements.txt", rodando o comando pip install -r "requirements.txt" na pasta do projeto, ele vai instalar bibliotécas esternas do python para poder executar o código.
