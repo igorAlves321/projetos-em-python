@@ -2,6 +2,12 @@ from  funcoes.menus import iniciar
 from funcoes.menus import  resultados
 from  funcoes.menus import limpar
 from funcoes.menus import confirmacoes
+from  lib import  fala
+
+## as funções a seguir são para trabalhar com a utilização de leitores de tela.
+fala.carregar()
+fala.detectar()
+fala.falar()
 
 def menu():
     print("\t Menu principal \n")

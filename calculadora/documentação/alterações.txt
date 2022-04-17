@@ -16,3 +16,4 @@ Calculadora, um mine projetinho que ainda está em desenvolvimento:
 9. Adicionada a opção de limpar o histórico.
 9.1. Adicionada mensagem para quando não ouver nada no histórico.
 10. Adicionado o arquivo na pasta do projeto "requirements.txt", rodando o comando pip install -r "requirements.txt" na pasta do projeto, ele vai instalar bibliotécas esternas do python para poder executar o código.
+11. adicionado ainda de testes suporte a leitor de telas, para trabalhar futuramente com janelas. Nome da bibliotéca cytolk.
