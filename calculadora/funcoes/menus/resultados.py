@@ -9,6 +9,7 @@ def verHistorico():
         break
     if len(mostrar) == 0:
         print("Nada para mostrar no histórico!")
+        return 0
     c = confirmacoes.confirmacao("Deseja copiar o histórico de resultados para a sua área de transferência? Dijite S para sim e N para não")
     if c:
         mostrar2 = str(mostrar)

@@ -13,6 +13,7 @@ Calculadora, um mine projetinho que ainda está em desenvolvimento:
 7. Alterado os parâmetros das operações.
 8. Adicionada a opção de ver histórico.
 8.1. Em desenvolvimento, estádisponível uma função para copiar ou não o histórico para a área de transferência.
+Corrigido bug de quando não tinha nada no histórico ele perguntava se queriamos copiar o histórico para a área de transferência.
 9. Adicionada a opção de limpar o histórico.
 9.1. Adicionada mensagem para quando não ouver nada no histórico.
 10. Adicionado o arquivo na pasta do projeto "requirements.txt", rodando o comando pip install -r "requirements.txt" na pasta do projeto, ele vai instalar bibliotécas esternas do python para poder executar o código.
