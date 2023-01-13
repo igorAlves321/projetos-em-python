@@ -1,6 +1,7 @@
 import pyperclip
 from  funcoes.menus import iniciar
 from funcoes.menus import confirmacoes
+from classes import historico
 
 def verHistorico():
     mostrar = iniciar.historico
@@ -13,7 +14,8 @@ def verHistorico():
     c = confirmacoes.confirmacao("Deseja copiar o histórico de resultados para a sua área de transferência? Dijite S para sim e N para não")
     if c:
         mostrar2 = str(mostrar)
-        mostrar2.replace("", " ")
+        mostrar2.replace("[]", "")
+        print(mostrar2)
         pyperclip.copy(mostrar2)
         print("Conteúdo do histórico copiado para a área de transferência!")
     else:
